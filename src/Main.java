@@ -53,7 +53,7 @@ public class Main {
 
 //        3е задание
         short deliveryDistance=80;
-        System.out.println("Потребуеться время на доставку-"+goDistance(deliveryDistance));
+        System.out.println("Потребуеться время на доставку-"+goDistance(deliveryDistance)+" дня");
 
 
      /*   short deliveryDistance = 95;
