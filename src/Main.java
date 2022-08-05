@@ -1,8 +1,15 @@
 public class Main {
 
     //   1е задание
+    /*
+    *         int year=2022;
+        if ((year%4==0)&&(year%100!=0)||(year%400==0)){
+            System.out.println(year+"год является високосным");
+        }else{
+            System.out.println(year+"год не является високосным");
+        }*/
     public static void comeLeapYear(int leapYear) {
-        if (leapYear % 4 == 0) {
+        if ((leapYear%4==0)&&(leapYear%100!=0)||(leapYear%400==0)) {
             System.out.println(leapYear + "- високосный год");
         } else {
             System.out.println(leapYear + "-не високосный год");
@@ -40,7 +47,7 @@ public class Main {
 //
 //       1е задание
 
-        int year = 2021;
+        int year = 2000;
         comeLeapYear(year);
 
 //
