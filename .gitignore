@@ -1,1 +1,3 @@
-/Hoomework1.8.iml
+*.iml
+/out/
+/.idea/
